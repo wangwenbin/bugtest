@@ -12,6 +12,7 @@ func main() {
 	defer termbox.Close()
 
 	termbox.SetCell(0, 0, 'c', 0, 0)
+	termbox.Flush()
 	termbox.SetCell(0, 0, 'c', 0, 0)
 	termbox.Flush()
 	termbox.PollEvent()
